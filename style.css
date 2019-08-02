@@ -1,0 +1,17 @@
+html{
+    background-color:aquamarine;
+}
+#charizard{
+    position: fixed;
+    bottom: 100;
+    right: 780;
+    width:290px;
+ 
+}
+#pikachu{
+    position: fixed;
+    bottom: 400;
+    right: 700;
+    width:180px;
+
+}

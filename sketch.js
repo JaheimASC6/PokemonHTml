@@ -5,7 +5,7 @@ let attackBoxX, attackBoxY, attackBoxLength, attackBoxHeight;
 let turn;
 
 function setup(){
-    createCanvas(600,600)
+    createCanvas(1200,595)
     playerHealth = 100;
     playerAttack = 10;
 
@@ -59,7 +59,7 @@ function enemyWin(){
 
 function draw(){
     
-    background(200, 100, 40);
+    background(7, 255, 212);
 
     fill(200,0,0);
     rect(50,520,150,20);
@@ -134,20 +134,20 @@ function draw(){
     ellipse(175,55,30,30);
     ellipse(210,55,30,30);
     fill(255,0,0);
-    triangle(295,391,285,411,305,411);
-    triangle(325,391,315,411,335,411);
-    ellipse(310,430,40,40);
-    rect(290,442,100,50);
-    rect(295,490,20,45);
-    rect(365,490,20,45);
-    fill(225,225,0);
-    ellipse(465,72,40,40);
-    ellipse(465,115,40,60);
-    ellipse(475,147,20,10);
-    ellipse(455,147,20,10);
-    triangle(485,135,485,118,502,112);
-    ellipse(458,50,15,35);
-    ellipse(490,65,15,35);
+    // triangle(295,391,285,411,305,411);
+    // triangle(325,391,315,411,335,411);
+    // ellipse(310,430,40,40);
+    // rect(290,442,100,50);
+    // rect(295,490,20,45);
+    // rect(365,490,20,45);
+    // fill(225,225,0);
+    // ellipse(465,72,40,40);
+    // ellipse(465,115,40,60);
+    // ellipse(475,147,20,10);
+    // ellipse(455,147,20,10);
+    // triangle(485,135,485,118,502,112);
+    // ellipse(458,50,15,35);
+    // ellipse(490,65,15,35);
 }
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d");
